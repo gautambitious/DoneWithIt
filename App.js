@@ -1,13 +1,14 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, SafeAreaView, Image } from "react-native";
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Text>So fucking fast</Text>
       <StatusBar style="auto" />
-    </View>
+      <Image source={"./assets/splash.png"} />
+    </SafeAreaView>
   );
 }
 

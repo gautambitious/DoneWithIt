@@ -21,6 +21,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "This is my first app using React Native. You can list items you don't want anymore and sell them online to other people who might need it."
   }
 }
